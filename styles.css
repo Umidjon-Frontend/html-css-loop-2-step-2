@@ -1,0 +1,104 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #2f2f2f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user{
+    width: 50%;
+}
+.close{
+    font-size: 18px;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.close:hover{
+    opacity: 1;
+}
+
+.account-card{
+    width: 500px;
+    margin: 30px auto;
+    padding: 60px 60px 0 60px;
+    background-color: #fdec51;
+}
+
+/* CARD HEADER */
+.account-card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* CARD BODY */
+.account-card__body{
+    width: 500px;
+    margin-top: 60px;
+    padding: 60px 40px 45px 40px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: -3px 3px 10px #818080;
+}
+.body-avatar__img-wrapper img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+
+}
+
+    /* CARD BODY FORM */
+.form-account label{
+    display: block;
+    text-transform: uppercase;
+    color: #aeacaa;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 7.5px 0;
+}
+.form-account input, .form-account textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dedede;
+    padding: 0 0 10px 0;
+    background-color: transparent;
+}
+.form-account textarea{
+    max-width: 100%;
+    min-width: 50%;
+}
+.form-account__user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CARD FOOTER */
+.account-card__footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #5a5635;
+    line-height: 80px;
+    font-size: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all .2s linear;
+}
+.btn:hover{
+    opacity: 1;
+}
